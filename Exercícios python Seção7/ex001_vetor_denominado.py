@@ -1,11 +1,12 @@
 '''vetor denominado.'''
 
 #letra A
-lista = [1, 0, 5, -2, -5, 7]
+LISTA = [1, 0, 5, -2, -5, 7]
 #letra B
-print(sum(lista[:3]))
+print(sum(LISTA[:3]))
 #letra C
-lista.insert(4, 100)
+LISTA.insert(4, 100)
 #letra D
-for i in range (7):
-    print(lista[i:i+1])
+VALORES = '\n'.join(str(i) for i in LISTA)
+print(VALORES)
+print(type(VALORES))

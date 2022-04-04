@@ -7,6 +7,6 @@ print(sum(LISTA[:3]))
 #letra C
 LISTA.insert(4, 100)
 #letra D
-VALORES = '\n'.join(str(i) for i in LISTA)
-print(VALORES)
-print(type(VALORES))
+VALOR = '\n'.join(str(i) for i in LISTA)
+print(VALOR)
+print(type(VALOR))

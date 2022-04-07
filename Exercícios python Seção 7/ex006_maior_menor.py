@@ -6,12 +6,4 @@ for i in range(10):
     else:
         x = int(input("Digite um número: "))
     VET.append(x)
-MAIOR = 0
-for i in range(10):
-    if MAIOR < VET[i]:
-        MAIOR = VET[i]
-        MENOR = MAIOR
-for i in range(10):
-    if MENOR > VET[i]:
-        MENOR = VET[i]
-print(f'O maior elemento da lista é: {MAIOR}, e o menor elemento é: {MENOR}')
+print(f'O maior elemento da lista é: {max(VET, key=int)}, e o menor elemento é: {min(VET, key=int)}')

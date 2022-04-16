@@ -1,4 +1,4 @@
-'''recebendo 2 valores com 10 int cada, criando um novo vetor e calculando'''
+'''Calculando  impares e pares no terceiro vetor'''
 
 A = []
 B = []
@@ -10,5 +10,11 @@ for i in range(10):
     B.append(b)
 
 for i in range(10):
-    C.append(A[i] - B[i])
-print(C)
+    if A[i] % 2 == 0:
+        C.append(A[i])
+    if B[i] % 2 != 0:
+        C.append(B[i])
+
+print(f'{A}, {B}, {C}')
+
+

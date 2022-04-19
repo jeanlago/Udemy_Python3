@@ -16,5 +16,3 @@ for i in range(10):
         C.append(B[i])
 
 print(f'{A}, {B}, {C}')
-
-

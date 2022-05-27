@@ -6,7 +6,9 @@ def transposta(M):
     return M_t
 
 matriz = []
+
 N = int(input("Digite a ordem da matriz: "))
+
 for i in range(N):
     matriz_filha = []
     for j in range(N):
